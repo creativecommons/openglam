@@ -1,7 +1,7 @@
 # Whether this GitHub repo is for a CC-led engineering project
 engineering_project: true
 # Name of the repository/project in English
-english_name: Open Glam
+english_name: Open GLAM
 # All technologies used
 technologies: HTML, CSS, Javascript
 # Whether this repository should be featured on the CC Open Source site's "Projects" page

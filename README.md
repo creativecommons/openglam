@@ -1,6 +1,6 @@
-# Open Glam - openglam.org
+# Open GLAM - openglam.org
 
-Static Files for the Openglam.org website
+Static Files for the OpenGLAM.org website
 
 ## Setup & Development
 
@@ -29,3 +29,25 @@ For information on learning and installing the prerequisite technologies for thi
 See [`CONTRIBUTING.md`][org-contrib].
 
 [org-contrib]: https://github.com/creativecommons/.github/blob/main/CONTRIBUTING.md
+
+
+## License
+
+
+### Code
+
+[`LICENSE`](LICENSE): the code within this repository is licensed under the
+Expat/[MIT][mit] license.
+
+[mit]: http://www.opensource.org/licenses/MIT "The MIT License | Open Source Initiative"
+
+
+### Content/Text
+
+[![CC BY 4.0 license button][cc-zero-png]][cc-zero]
+
+All the content within this repository is licensed under  [CC0
+ 1.0][cc-zero] unless otherwise specified.
+
+[cc-zero-png]: https://licensebuttons.net/l/zero/1.0/88x31.png "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication button"
+[cc-zero]: https://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons — CC0 1.0 Universal"
