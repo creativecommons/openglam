@@ -44,10 +44,11 @@ Expat/[MIT][mit] license.
 
 ### Content/Text
 
-[![CC BY 4.0 license button][cc-zero-png]][cc-zero]
+[![CC BY 4.0 license button][cc-by-png]][cc-by]
 
-All the content within this repository is licensed under  [CC0
- 1.0][cc-zero] unless otherwise specified.
+All the content within this repository is licensed under [CC-BY
+ 4.0][cc-by] unless otherwise specified.
 
-[cc-zero-png]: https://licensebuttons.net/l/zero/1.0/88x31.png "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication button"
-[cc-zero]: https://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons — CC0 1.0 Universal"
+
+[cc-by-png]: https://licensebuttons.net/l/by/4.0/88x31.png "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication button"
+[cc-by]: https://creativecommons.org/licenses/by/4.0/ "Creative Commons — CC0 1.0 Universal"
