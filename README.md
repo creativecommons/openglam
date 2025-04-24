@@ -2,6 +2,10 @@
 
 Static Files for the OpenGLAM.org website
 
+## Migration from WordPress to static files
+
+See [`migration/README.md`](migration/README.md)
+
 ## Setup & Development
 
 For information on learning and installing the prerequisite technologies for this project, please see [Foundational technologies — Creative Commons Open Source][found-tech].
@@ -50,5 +54,5 @@ All the content within this repository is licensed under [CC-BY
  4.0][cc-by] unless otherwise specified.
 
 
-[cc-by-png]: https://licensebuttons.net/l/by/4.0/88x31.png "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication button"
-[cc-by]: https://creativecommons.org/licenses/by/4.0/ "Creative Commons — CC0 1.0 Universal"
+[cc-by-png]: https://licensebuttons.net/l/by/4.0/88x31.png#floatleft "CC BY 4.0 license button"
+[cc-by]: https://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International License"
