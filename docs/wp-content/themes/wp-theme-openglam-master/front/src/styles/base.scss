@@ -1,0 +1,99 @@
+@include mobile() {
+    body {
+      overflow-x: hidden;
+      .entry-content {
+        padding-top: 1.1rem;
+        .title {
+          margin-bottom: .6rem;
+          font-size: 1.55rem;
+          font-weight: $bold;
+        }
+        .content {
+          font-size: 1rem;
+          h2 {
+            font-size: 1.4rem;
+            font-weight: $bold;
+          }
+        }
+      }
+    }
+  }
+  
+  .entry-content {
+    .title {
+      font-weight: $bold;
+      text-transform: uppercase;
+    }
+    .content {
+      a {
+        color: $link;
+        &:hover {
+          color: $link;
+          text-decoration: underline;
+        }
+      }
+      h2 {
+        font-size: 2.44rem;
+      }
+      p {
+        margin-bottom: $space-normal;
+        &.subtitle {
+          font-weight: $bold;
+          margin-top: -1rem;
+          margin-bottom: 4rem;
+          font-size: 1.4rem;
+          @include mobile() {
+            margin-top: -.3rem;
+            margin-bottom: 2rem;
+            font-size: 1rem;
+          }
+        }
+        &.big-paragraph {
+          padding: 2.8rem;
+          margin-bottom: $space-big;
+          font-size: 1.6rem;
+          border: 3px solid $gray-light;
+          @include mobile() {
+            font-size: 1.1rem;
+          }
+        }
+        @include mobile() {
+          font-size: .9rem;
+        }
+      }
+      .og-numbers {
+        list-style: none;
+        counter-reset: og-counter;
+        li {
+          position: relative;
+          margin-bottom: 1.8rem;
+          counter-increment: og-counter;
+          &::before {
+            content: counter(og-counter);
+            position: absolute;
+            display: inline-block;
+            left: -2.2rem;
+            top: 0;
+            width: 1.8rem;
+            height: 1.8rem;
+            text-align: center;
+            line-height: 1.8rem;
+            font-weight: $bold;
+            font-size: 1rem;
+            background-color: $black;
+            color: $white;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+  
+  .breadcrumbs {
+    margin-bottom: $space-big;
+    font-size: 0.81rem;
+    font-weight: $bold;
+    .icon {
+      margin: 0 $space-tiny;
+    }
+  }
