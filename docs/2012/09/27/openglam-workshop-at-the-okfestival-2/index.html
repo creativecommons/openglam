@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title> | OpenGLAM workshop at the OKFestival</title>
+	<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//unpkg.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='/wp-includes/css/dist/block-library/style.min.css?ver=5.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='vocabulary_blocks-cgb-style-css-css'  href='/wp-content/plugins/wp-plugin-vocabulary-blocks-master/dist/blocks.style.build.css' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--og-light-yellow: #FFF2DF;--wp--preset--color--og-light-orange: #FFEFEB;--wp--preset--color--og-light-green: #E6F4F1;--wp--preset--color--og-green: #0D7D72;--wp--preset--color--og-orange: #CC3A00;--wp--preset--color--og-brown: #BD7800;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='gfonts-css'  href='https://fonts.googleapis.com/css2?family=Inter%3Awght%40400%3B700&#038;display=swap&#038;ver=5.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='vocabulary_fonts-css'  href='https://unpkg.com/@creativecommons/fonts/css/fonts.css?ver=5.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='cc_base_style-css'  href='/wp-content/themes/wp-theme-openglam-master/assets/css/styles.css?ver=5.9.8' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+
+<meta name="generator" content="WordPress 5.9.8" />
+<link rel="canonical" href="https://openglam.org/how/" />
+<link rel="icon" href="/wp-content/uploads/2020/10/cropped-openglam-favicon-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="/wp-content/uploads/2020/10/cropped-openglam-favicon-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="/wp-content/uploads/2020/10/cropped-openglam-favicon-1-180x180.png" />
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2020/10/cropped-openglam-favicon-1-270x270.png" />
+</head>
+<body class="page-template-default page page-id-3740 wp-embed-responsive">
+<header class="main-header is-hidden-mobile">
+  <figure class="site-logo">
+    <a href="/">
+      <img src="/wp-content/themes/wp-theme-openglam-master/assets/img/openglam-logo.svg" alt="">
+    </a>
+  </figure>
+  <nav class="main-navigation">
+  <ul id="primary-menu"><li id="menu-item-3748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3748"><a href="/">Home</a></div></li>
+<li id="menu-item-3747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3747"><a href="/why/">Why</a></div></li>
+<li id="menu-item-3746" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-3740  menu-item-3746"><a href="/how/">How</a></div></li>
+<li id="menu-item-3745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3745"><a href="/what/">What</a></div></li>
+</ul>		</nav>
+  </nav>
+</header>
+<header class="mobile-header is-hidden-tablet">
+	<div class="level">
+		<div class="level-left">
+			<figure class="site-logo">
+				<a href="/">
+					<img src="/wp-content/themes/wp-theme-openglam-master/assets/img/openglam-logo.svg" alt="">
+				</a>
+			</figure>
+		</div>
+		<div class="level-right">
+			<a href="#" class="open-menu">
+				<i class="icon bars"></i>
+				<i class="icon cross"></i>
+			</a>
+		</div>
+	</div>
+	<nav class="mobile-navigation">
+		<ul id="primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3748"><a href="/">Home</a></div></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3747"><a href="/why/">Why</a></div></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-3740 menu-item-3746"><a href="/how/">How</a></div></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3745"><a href="/what/">What</a></div></li>
+</ul>	</nav>
+</header>
+
+<section class="main-content">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-9 is-offset-3">
+        <section class="entry-content">
+          <h1 class="title">OpenGLAM workshop at the OKFestival</h1>
+          <div class="content is-large">
+
+            <p><img src="http://farm9.staticflickr.com/8179/8008493641_aa1144769b_z.jpg" alt="picture" /><br />
+<sub>&#8220;Merete Sanderhoff at the OpenGLAM workshop&#8221; by <a href="http://www.flickr.com/photos/avoinglam/8008493641/sizes/z/in/photostream/">AvoinGLAM</a>. Available under a CC-BY license</sub></p>
+<p>The OKFestival, <a href="http://www.okfestival.org">the biggest open data and knowledge event ever held</a>, has come to an end. And what a great week it was.<br />
+<br />
+On Tuesday <a href="/2012/10/02/okfest-hackday-results/">we hacked on a number of Finnish cultural datasets</a> and the 20 million openly licensed objects in Europeana. <br />
+On Wednesday we met with a lot of people doing great work to open up cultural data, discussed the relevant issues and created several task forces to address and solve these. If you are a member of the <a href="http://www.google.nl/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;ved=0CCUQFjAA&amp;url=http%3A%2F%2Flists.okfn.org%2Fmailman%2Flistinfo%2Fopen-glam&amp;ei=ZxRjUIrmLfC10QWGx4HYBA&amp;usg=AFQjCNGp8rA0a_VNoZX3miyIQ-nvdXLK-w&amp;sig2=-yatRY4nn2TJnfKOx9AWnA">mailing list</a>, you have seen that several topics are already being heavily debated. <br />
+Finally, on Thursday we organised a workshop for Finnish cultural heritage institutions where the benefits of open cultural data were explained and several issues were addressed. The event took place in the astonishing building of the <a href="http://www.sls.fi">Society of Swedish literature</a> in Helsinki.</p>
+<p>##AvoinGLAM</p>
+<p>After a word of welcome from the chair of the society, Sanna Marttila from the Aalto University presented her plans to make more Finnish cultural institutions open up their data and announced “<a href="http://avoinglam.org">AvoinGLAM</a>”, the Finnish partner network of the OpenGLAM initiative. Setting up a local group allows them to focus on local issues and opportunities and at the same time engage with a wider European network.</p>
+<p>After Sanna’s talk, Joris Pekel of the Open Knowledge Foundation gave a short overview about the <a href="http://www.opendefinition.org">definition of open data</a> and why it can be beneficial for cultural institutions to open up their data. He especially focussed on the possibilities for education and how open data can facilitate new ways of doing research.</p>
+<p><center></p>
+<p><iframe loading="lazy" src="http://www.slideshare.net/slideshow/embed_code/14469417?hostedIn=slideshare&#038;page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+<p></center></p>
+<p>##National Gallery of Denmark</p>
+<p>Merete Sanderhoff from the <a href="http://www.smk.dk/en/">National Gallery of Denmark</a> presented how the gallery has participated in <a href="http://www.googleartproject.com/">the Google Art project</a> where people can take a free virtual tour through the gallery. However, free access does not equal sharing. Merete pointed out that the Google Art project is great, but is also a walled garden as the pictures can not be reused in any way. Therefore the National Gallery decided <a href="http://www.smk.dk/en/explore-the-art/the-royal-collections/free-download-of-art-works/">to openly license</a> the 158 images under a CC-BY license in the highest resolution possible. The gallery has since then experienced a severe increase of traffic to their site and gained a lot of attention. Merete also mentioned the upcoming Twitter project that the National Gallery is organising with 8 other museums. Here each artwork gets its own hashtag and it allows people to interact with the other visitors and museums. People can send messages, add context and links, or directly tweet to a member of the Gallery/Museum who then can answer questions. By taking their collection to a platform where the people already are, it does not only make it easier for them to reach out, but they are also sure it gets updated and maintained without any costs for them.</p>
+<p><center></p>
+<p><iframe loading="lazy" src="http://www.slideshare.net/slideshow/embed_code/14355407" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe></p>
+<div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/MereteSanderhoff/common-challenges-common-solutions-okfest-20092012" title="Common Challenges, Common Solutions #OKFest 20092012" target="_blank">Common Challenges, Common Solutions #OKFest 20092012</a> </strong> from <strong><a href="http://www.slideshare.net/MereteSanderhoff" target="_blank">Merete Sanderhoff</a></strong> </div>
+<p></center></p>
+<p>##Pundit</p>
+<p>Christian Morbidoni and Michele Barbera from the Italian software company <a href="http://www.netseven.it/">Net7</a> presented the <a href="http://thepund.it/">Pundit tool</a>. The team from Net7 has been active all week during the OKFestival and had even set up <a href="http://thepund.it/okfest.php">a dedicated website</a> for this event. The Pundit tool allows scholars to make annotations in a digital text and to link them to other books/quotes/chapters etc. This is done by making a RDF-triple which means that two pieces of text can be linked for by saying for example “quote A” is a comment on “quote B”. By creating these links, scholars can collaboratively create and share interpretations and also comment on each other. Finally, these annotation can be analyzed and visualized to get a better insight in for example which philosopher influenced who. This tool is a great example of how open digital cultural objects can facilitate new ways of research.</p>
+<p><center></p>
+<p><iframe loading="lazy" src="http://www.slideshare.net/slideshow/embed_code/14314936" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe></p>
+<div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/barbz79it/pundit-okfestival" title="Pundit - OKFestival" target="_blank">Pundit &#8211; OKFestival</a> </strong> from <strong><a href="http://www.slideshare.net/barbz79it" target="_blank">Michele Barbera</a></strong> </div>
+<p></center></p>
+<p>##Creative Commons</p>
+<p>Christian Villum of <a href="http://www.creativecommons.org">Creative Commons</a> Denmark gave a very appealing presentation about the different types of CC-licenses, and how they work for artists and institutions. He started by pointing out that in this world where everybody is always online, sharing has become an important part of our daily lives. But sharing often involves copyright. Everything you share or publish is automatically protected by copyright, which means that others can not share or reuse your work without your specific permission. Many artists however, want their works to be shared to some extent. To make this possible, the creative commons license was invented. Christian ended his presentation by summing up several case studies where open data has resulted in a massive increase of website hits, and even in higher commercial revenue.</p>
+<p><center></p>
+<p><iframe loading="lazy" src="http://www.slideshare.net/slideshow/embed_code/14469542?hostedIn=slideshare&#038;page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+<p></center></p>
+<p>##Wikimedia Finland</p>
+<p>Tommi Kovala and Ulpu Pajari of the Finnish local chapter of Wikimedia presented the work they have done with several Finnish cultural institutions. In the <a href="http://fi.wikimedia.org/wiki/GLAM_Ateneum">Ateneum project</a>, they worked closely with the institutions and artists to improve Wikimedia articles about these institutions. This for example by adding openly licensed images that were uploaded to Wikimedia Commons. The project has been running for more than a year now, and has resulted in more than 120 improved pages. Sarah Stierch from the US chapter of Wikimedia also mentioned the <a href="http://outreach.wikimedia.org/wiki/GLAM">GLAMwiki</a> page with lots of information for institutions how to get started with getting their content on Wikipedia.</p>
+<p>##Open Cultuur Data</p>
+<p>On the OpenGLAM website, we have <a href="/2012/04/17/open-cultural-data-lessons-learned-and-next-steps/">previously discussed</a> the great work of the Dutch initiative <a href="http://www.opencultuurdata.nl">Open Cultuur Data</a>.  Maarten Brinkerink presented the work they have been doing in the last year and how that resulted into more than 20 openly licensed datasets. Maarten pointed out that open cultural data is not only the metadata or the digitised objects, it is also the documentation, the experience of the institution and the assistance they can give to people who want to work with their data. Maarten works at <a href="http://www.beeldengeluid.nl/en">the Netherlands Institute for Sound and Vision</a> where more than 800.000 hours of audiovisual material lies in their archive. He pointed out that so far, only 0.007% of all material is digitsed <em>and</em> openly licensed through <a href="http://www.openimages.eu">Openimages</a>. At the same time, this material is responsible for 10% of all audiovisual material embedded in Wikipedia articles, resulting in  more than 2.5 millions of views each month.</p>
+<p><center></p>
+<p><iframe loading="lazy" src="http://www.slideshare.net/slideshow/embed_code/14469640?hostedIn=slideshare&#038;page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+<p></center></p>
+<p>##Finna</p>
+<p>Aki Lassila of the <a href="http://www.nationallibrary.fi/">Finnish National Library</a> presented the Finna project. Here they try to come up with sustainable solutions for the digitisation of the material in Finnish libraries. As mentioned often, digitisation is a big issue which due to massive costs and no direct return of investment, is not easy to resolve. The Finna project tries to create a digitisation cycle that not only digitises, but also makes the content available to the audience. All of the software being build in the project is open source so can also be used by other institutions. For more info and a demo <a href="http://kdk.fi/en/public-interface">click here</a>.</p>
+<p><center></p>
+<p><iframe loading="lazy" src="http://www.slideshare.net/slideshow/embed_code/14469735?hostedIn=slideshare&#038;page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+<p></center></p>
+<p>##Society of Swedish Literature</p>
+<p>The last presentation was by Tove Ørsted of the <a href="http://www.sls.fi">Society of Swedish literature</a>. She presented how the society has taken its first steps in opening up their data. The institutions has done a pilot with material of which they knew for sure it would not lead to any legal or ethical issues. When they had to decide to use an existing platform, or to build their own, they decided to take Flickr to publish their cultural works. This way they took the material to a platform where the people already are and immediately the images got lots of exposure. Tove pointed out that although the pilot has been successful, digitisation is by no means an easy process. She mentioned that digitisation is so much more than just the act of scanning, it is selection, curation, storing and finally, sharing.</p>
+<p><center></p>
+<div class="prezi-player">
+<style type="text/css" media="screen">.prezi-player { width: 550px; } .prezi-player-links { text-align: center; }</style>
+<p><object id="prezi_44o1khxpvcou" name="prezi_44o1khxpvcou" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="550" height="400"><param name="movie" value="http://prezi.com/bin/preziloader.swf"/><param name="allowfullscreen" value="true"/><param name="allowFullScreenInteractive" value="true"/><param name="allowscriptaccess" value="always"/><param name="bgcolor" value="#ffffff"/><param name="flashvars" value="prezi_id=44o1khxpvcou&amp;lock_to_path=1&amp;color=ffffff&amp;autoplay=no&amp;autohide_ctrls=0"/><embed id="preziEmbed_44o1khxpvcou" name="preziEmbed_44o1khxpvcou" src="http://prezi.com/bin/preziloader.swf" type="application/x-shockwave-flash" allowfullscreen="true" allowFullScreenInteractive="true" allowscriptaccess="always" width="550" height="400" bgcolor="#ffffff" flashvars="prezi_id=44o1khxpvcou&amp;lock_to_path=1&amp;color=ffffff&amp;autoplay=no&amp;autohide_ctrls=0"></embed></object></p>
+<div class="prezi-player-links"><a title="Small steps towards an open Archive" href="http://prezi.com/44o1khxpvcou/small-steps-towards-an-open-archive/">Small steps towards an open Archive</a> on <a href="http://prezi.com">Prezi</a></p>
+</div>
+</div>
+<p></center></p>
+<p>##Workshop</p>
+<p>After the plenary talks, Sanna asked all the participants to gather around a big piece of paper. Here they were invited to take a post-it note and collaboratively create a roadmap for open cultural data in Finland. It was interesting to see that most institutions understand the value of open data as part of their public mission. The question is now how to do this effectively. The AvoinGLAM initiative in Finland has collected all questions and remarks and will actively help and guide the institutions in this process. If you want to get involved, please contact <a href="http://www.avoinglam.fi">the team in Finland</a>.</p>
+<p>##Conclusions</p>
+<p>A few conclusions and lessons that can be taken from this day are:<br />
+</p>
+<ul>
+<li>Many cultural institutions are willing to experiment with opening up parts of their collection, but many questions how to do this remain. Better documentation can assist them answering these questions.</li>
+<li>A lot can be learned from other initiatives from all over Europe. It is often hard to find out how successful projects like the one from the National Archive in Denmark have been emerged. Bringing together these different people and experiences can be very valuable. </li>
+<li>The use of different licenses always sparks a huge debate about which one is appropriate in which situation. Many institutions choose a restrictive license such as the Non-Commercial or No Derivatives. But at the same time they lack resources to actually check the proper use of these licenses and to act when the work is being used incorrect. Therefore there is no reason to choose these kinds of licenses. </li>
+<li>We are going to see a lot of cultural data coming from Finland in the next months!</li>
+</ul>
+            
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="main-footer">
+  <div class="container">
+        <div class="columns">
+      <div class="column is-9 is-offset-3">
+        <aside class="grid-container total-cols-"><div class="widget newsletter"><h4 class="b-header widget-title">Join our community</h4><a href="https://lists.wikimedia.org/mailman/listinfo/open-glam" class="button is-rounded is-primary">Subscribe to our updates</a></div><div class="widget follow-us"><h4 class="widget-title">Follow us on:</h4><div class="widget-content"><div class="follow-icons"><a href="https://slack-signup.creativecommons.org/" class="social slack is-black"><i class="icon slack"></i></a><a href="https://www.facebook.com/openglam1" class="social facebook is-black"><i class="icon facebook"></i></a><a href="https://twitter.com/openglam" class="social twitter is-black"><i class="icon twitter"></i></a><a href="https://medium.com/open-glam" class="social medium is-black"><i class="icon medium"></i></a><a href="mailto:info@openglam.org" class="social mail is-black"><i class="icon envelope"></i></a></div></div></aside><aside class="grid-container total-cols-"><section id="custom_html-2" class="widget_text widget widget_custom_html">
+<div class="textwidget custom-html-widget">Except where otherwise noted, all content on this website is dedicated to the public domain using <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>. The OpenGLAM logo is designed to serve as a trademark for the OpenGLAM Initiative. If you want to use the logo for your own open GLAM projects, please contact Creative Commons at <a href="mailto:legal@creativecommons.org">legal@creativecommons.org</a>.</div></section></aside>      </div>
+    </div>
+        <div class="columns">
+      <div class="column is-2 is-offset-3">
+        <div class="widget support">
+          <p>Supported by</p>
+          <img src="https://ccstatic.org/openglam-landing/img/cc.logo.svg" alt="Creative Commons logo">
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type='text/javascript' src='/wp-content/themes/wp-theme-openglam-master/assets/js/script.js?ver=2020.04.1' id='vocabulary-js'></script>
+</body>
+</html>

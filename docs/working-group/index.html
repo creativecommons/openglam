@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title> | OpenGLAM Working Group</title>
+	<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//unpkg.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='/wp-includes/css/dist/block-library/style.min.css?ver=5.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='vocabulary_blocks-cgb-style-css-css'  href='/wp-content/plugins/wp-plugin-vocabulary-blocks-master/dist/blocks.style.build.css' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--og-light-yellow: #FFF2DF;--wp--preset--color--og-light-orange: #FFEFEB;--wp--preset--color--og-light-green: #E6F4F1;--wp--preset--color--og-green: #0D7D72;--wp--preset--color--og-orange: #CC3A00;--wp--preset--color--og-brown: #BD7800;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='gfonts-css'  href='https://fonts.googleapis.com/css2?family=Inter%3Awght%40400%3B700&#038;display=swap&#038;ver=5.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='vocabulary_fonts-css'  href='https://unpkg.com/@creativecommons/fonts/css/fonts.css?ver=5.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='cc_base_style-css'  href='/wp-content/themes/wp-theme-openglam-master/assets/css/styles.css?ver=5.9.8' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+
+<meta name="generator" content="WordPress 5.9.8" />
+<link rel="canonical" href="https://openglam.org/how/" />
+<link rel="icon" href="/wp-content/uploads/2020/10/cropped-openglam-favicon-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="/wp-content/uploads/2020/10/cropped-openglam-favicon-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="/wp-content/uploads/2020/10/cropped-openglam-favicon-1-180x180.png" />
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2020/10/cropped-openglam-favicon-1-270x270.png" />
+</head>
+<body class="page-template-default page page-id-3740 wp-embed-responsive">
+<header class="main-header is-hidden-mobile">
+  <figure class="site-logo">
+    <a href="/">
+      <img src="/wp-content/themes/wp-theme-openglam-master/assets/img/openglam-logo.svg" alt="">
+    </a>
+  </figure>
+  <nav class="main-navigation">
+  <ul id="primary-menu"><li id="menu-item-3748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3748"><a href="/">Home</a></div></li>
+<li id="menu-item-3747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3747"><a href="/why/">Why</a></div></li>
+<li id="menu-item-3746" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-3740  menu-item-3746"><a href="/how/">How</a></div></li>
+<li id="menu-item-3745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3745"><a href="/what/">What</a></div></li>
+</ul>		</nav>
+  </nav>
+</header>
+<header class="mobile-header is-hidden-tablet">
+	<div class="level">
+		<div class="level-left">
+			<figure class="site-logo">
+				<a href="/">
+					<img src="/wp-content/themes/wp-theme-openglam-master/assets/img/openglam-logo.svg" alt="">
+				</a>
+			</figure>
+		</div>
+		<div class="level-right">
+			<a href="#" class="open-menu">
+				<i class="icon bars"></i>
+				<i class="icon cross"></i>
+			</a>
+		</div>
+	</div>
+	<nav class="mobile-navigation">
+		<ul id="primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3748"><a href="/">Home</a></div></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3747"><a href="/why/">Why</a></div></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-3740 menu-item-3746"><a href="/how/">How</a></div></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3745"><a href="/what/">What</a></div></li>
+</ul>	</nav>
+</header>
+
+<section class="main-content">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-9 is-offset-3">
+        <section class="entry-content">
+          <div class="breadcrumbs"><a href="https://openglam.org">Home</a> <i class="icon chevron-right"></i> OpenGLAM Working Group</div>
+          <h1 class="title">OpenGLAM Working Group</h1>
+          <div class="content is-large">
+
+            <p>The OpenGLAM Working Group is a global network of people who work to open up cultural data and content. We run workshops and provide documentation for cultural institutions wanting to open up their data as well as organise events bringing together groups that are committed to building an open cultural commons.<br />
+The Working Group Members act as a bridge between different organisations and initiatives, and the global network. We meet every month virtually to discuss relevant updates, pressing issues, and next steps to be taken.<br />
+If you are interested in joining, please get in touch with <a href="mailto:openglam.org">openglam@okfn.org</a>.</p>
+<hr />
+<p>####Working Group Members</p>
+<p>#####Joris Pekel<br />
+<img class="alignright size-full wp-image-926" src="/files/2012/10/Screen-Shot-2013-03-15-at-12.05.10.png" alt="" width="100" /><br />
+Joris is community coordinator cultural heritage at the Europeana Foundation and coordinates the OpenGLAM working group.</p>
+<p>Joris lives in Amsterdam and has a BA in Theatre, Film and Television studies, and an MA in New Media. During his studies, he focussed specifically on digital heritage and how this changes the way cultural institutions can reach out to the public. He is very interested in exploring how collections can be connected with others to facilitate new and innovative ways of looking at our shared history. After his studies he started working at the Open Knowledge Foundation as a community coordinator and he now works at the Europeana Foundation.</p>
+<hr />
+<p>#####Adam Green<br />
+<img loading="lazy" class="alignright" src="http://blogfiles.wfmu.org/FC/revitalize/Adam_re.png" alt="" width="97" height="97" />Adam is the Editor-in-Chief of <a href="http://publicdomainreview.org">The Public Domain Review</a></p>
+<p>Adam lives in London and studied Anthropology at the University of Cambridge and Religion/Philosophy at SOAS. In January 2011, he and Jonathan Gray co-founded The Public Domain Review, on online journal dedicated to highlighting interesting and curious public domain works.</p>
+<hr />
+<p>#####Sarah Stierch<br />
+<a href="https://okfn.org/"><img loading="lazy" class="alignright" src="http://www.gravatar.com/avatar/d22f8f1da8296ec75ba7b4a87b3e267e?d=mysteryman&amp;s=150&amp;r=G" alt="Sarah Stierch - US OpenGLAM" width="100" height="100" /></a><br />
+Sarah is the director of <a href="http://sarahstierch.com/">Sarah Stierch Consulting</a>, as well as visiting scholar at the University of California, Berkeley Center for New Media, as the first <a href="http://bcnm.berkeley.edu/index.php/announcing-the-2013-bcnm-susan-miller-fellow/">Susan B. Miller Fellow</a>.</p>
+<p>Sarah is a museumist, Wikimedian, and open culture advocate based in Oakland, California. A curator by trade, Sarah has her B.A. in Native American Studies from Indiana University and her M.A. in Museum Studies from George Washington University. Sarah has been a lead voice in the United States open culture community, with a specific focus on partnerships between GLAMs and Wikimedia projects such as Wikipedia. She was the first Wikipedian in Residence at the Smithsonian Institution, and has developed and engaged in partnerships with international GLAM organizations.</p>
+<hr />
+<p>#####Maarten Brinkerink<br />
+<img loading="lazy" class="alignright size-full wp-image-2299" src="/files/2012/10/Screen-Shot-2013-06-24-at-13.01.30.png" alt="Screen Shot 2013-06-24 at 13.01.30" width="100" height="100" srcset="/wp-content/uploads/2012/10/Screen-Shot-2013-06-24-at-13.01.30-150x150.png 150w, /wp-content/uploads/2012/10/Screen-Shot-2013-06-24-at-13.01.30-60x60.png 60w" sizes="(max-width: 100px) 100vw, 100px" /><br />
+Maarten works as a project manager at the R&amp;D department of the <a href="http://www.beeldengeluid.nl/over-de-afdeling-rd">Netherlands Institute for Sound and Vision</a>.</p>
+<p>Maarten lives in Rotterdam and holds an MA in New Media and Digital Culture. At Sound and Vision he manages innovative projects like <a href="http://openimages.eu">Open Images</a> (an open media platform) Oorlogsmonumenten in Beeld (a location-based iPhone app that enriches war monuments with audiovisual heritage) and Waisda? (a multiple award winning crowdsourcing game for collecting metadata for audiovisual content). He specialises in providing meaningful access to cultural content using new media.</p>
+<hr />
+<p>#####Primavera di Filippi<br />
+<img loading="lazy" class="alignright size-full wp-image-2297" src="/files/2012/10/primavera.png" alt="primavera" width="100" height="103" /><br />
+Primavera is a researcher at the CERSA / CNRS / Université Paris II, where she is currently working on the legal implications of cloud computing and peer-to-peer technologies.</p>
+<p>Primavera lives in Paris and she holds a PhD from the European University Institute in Florence, where she explored the legal challenges of copyright law in the digital environment. Primavera is also an administrator of the <a href="http://www.communia-association.org/">Communia association</a> for the public domain, a coordinator of the Public Domain working group at the Open Knowldege Foundation and legal expert for Creative Commons in France.</p>
+<hr />
+<p>#####Sanna Marttila<br />
+<img loading="lazy" class="alignright size-full wp-image-2300" src="/files/2012/10/Screen-Shot-2013-06-24-at-13.17.13.png" alt="Screen Shot 2013-06-24 at 13.17.13" width="103" height="" srcset="/wp-content/uploads/2012/10/Screen-Shot-2013-06-24-at-13.17.13.png 157w, /wp-content/uploads/2012/10/Screen-Shot-2013-06-24-at-13.17.13-60x60.png 60w" sizes="(max-width: 157px) 100vw, 157px" /><br />
+Sanna is a project director at the Aalto University of Art and Design.</p>
+<p>Sanna lives in Helsinki and holds a Master of Arts degree from the University of Oulu majoring in literature, as well as an MA in New Media from the University of Art and Design Helsinki. She is currently a doctoral candidate in the Department of Media, Aalto University. In her doctoral work she studies the strategies how media companies, television channels and other established actors of the media field create a functioning collaboration with fragmented and participative communities online.</p>
+<hr />
+<p>#####Marco Montanari<img loading="lazy" class="alignright  wp-image-2814" src="/wp-content/uploads/2012/10/marco-montanari-150x150.jpg" alt="marco montanari" width="97" height="97" srcset="/wp-content/uploads/2012/10/marco-montanari-150x150.jpg 150w, /wp-content/uploads/2012/10/marco-montanari-60x60.jpg 60w" sizes="(max-width: 97px) 100vw, 97px" /></p>
+<p>Marco is a software developer and consultant as well as an Open Data Evangelist.</p>
+<p>Marco lives in Bologna, Italy, and has a MSc in Computer Engineering. Personal interest and curiosity brought him to be interested in both open data and transparency per se, as well as with the aim of simplifying communication for public administrations, politics and data journalism. Since 2012 he is involved with Open Knowledge Foundation Italy.</p>
+<hr />
+<p>#####Alex Hinojo<br />
+<img loading="lazy" class="alignright" src="http://2.bp.blogspot.com/-8qN7GJWEq1U/TtejWeJXZbI/AAAAAAAABjs/oWtcdtF-jMQ/s1600/%25C3%2580lex+Hinojo.jpg" alt="" width="103" height="" /></p>
+<p>Alex is an ambassador of the #GLAMwiki initiative.</p>
+<p>Alex lives in Barcelona and holds a degree in a degree in Business Administration, a postgraduate degree in Cultural Projects Management and a museum studies postgraduate degree. As an ambassador of the #GLAMwiki initiative he works to increase and improve the relationships between the cultural sector and the free knowledge community, looking for new ways to engage with cultural heritage and sharing culture.</p>
+<hr />
+<p>#####Beat Estermann<br />
+<img loading="lazy" class="alignright" src="http://cdn.slidesharecdn.com/profile-photo-beatestermann-96x96.jpg?1369896234" alt="" width="103" height="" /><br />
+Beat is a researcher at Bern University of Applied Science&#8217;s <a href="http://www.e-government.bfh.ch/">E-Government Institute</a>. As a member of the institute&#8217;s &#8220;Linked and Open Data&#8221; Research Group, he presently focusses his research on issues surrounding Open Data and Crowdsourcing in the Cultural Heritage Sector.</p>
+<p>Beat holds a master&#8217;s degree in translation studies and another one in public management, both from the University of Geneva. Since 2012, he has been working closely with <a href="http://www.allmend.ch">Wikimedia CH</a> to initiate and carry out cooperation projects with libraries, archives, and museums in Switzerland. Beat is also a member of <a href="http://www.opendata.ch">&#8220;opendata.ch&#8221;</a>, the Swiss chapter of the Open Knowledge Foundation, as well as a founding member of the <a href="http://www.wikimedia.ch">&#8220;Digitale Allmend&#8221;</a> association, the Swiss chapter of Creative Commons. He strongly believes in the synergies between these three NGOs when it comes to reaching out to GLAMs in order to win them over to the idea of commonly promoting the &#8220;Cultural Commons&#8221;.</p>
+<hr />
+<p>#####Sylvia Petrovic-Majer<a href="/wp-content/uploads/2012/10/sylvia-petrovic.jpeg"><img loading="lazy" class="alignright  wp-image-2630" src="/wp-content/uploads/2012/10/sylvia-petrovic-150x150.jpeg" alt="sylvia petrovic" width="96" height="96" srcset="/wp-content/uploads/2012/10/sylvia-petrovic.jpeg 150w, /wp-content/uploads/2012/10/sylvia-petrovic-60x60.jpeg 60w" sizes="(max-width: 96px) 100vw, 96px" /></a></p>
+<p>Sylvia is a founder of <a href="https://okfn.at/arbeitsgruppen/arbeitsgruppe-open-glam/">the OpenGLAM working group in Austria</a>, candidate for the PhD and freelancer in cultural mediation and management.</p>
+<p>Sylvia lives with her daughter in Steinaweg, a village in the region of Krems/Danube (A) as well as in Dubai (UAE) and she holds a Mag. Phil. in Theater, Film and Media Sciences and Art History of the University of Vienna, where she explored about Visual Culture and Sociology in the context of Arab contemporary art. In addition she has experiences in cultural management and wants to work on a participation model to increase the influence and possibility of art and culture in people&#8217;s daily lives.</p>
+<hr />
+<p>#####Helene Hahn<img loading="lazy" class="alignright" src="/files/2012/10/Helene-Hahn.jpg" alt="" width="82" height="82" /></p>
+<p>Helene works for the Open Knowledge Foundation Germany on the European funded project Europeana Cloud and is helping to further develop activities in the field of open culture, digital humanities and OpenGLAM in Germany.</p>
+<p>She is studying Cultural Sciences and Economy at the European University Viadrina in Frankfurt (Oder) and is writing her Bachelor thesis at the moment. In addition she is leading the <a href="http://codingdavinci.de/">Coding Da Vinci</a> project.</p>
+<hr />
+<p>#####Shannon Eichelberger<img loading="lazy" class="alignright  wp-image-2640" src="/wp-content/uploads/2012/10/Eichelberger-150x150.png" alt="Eichelberger" width="120" height="120" srcset="/wp-content/uploads/2012/10/Eichelberger-150x150.png 150w, /wp-content/uploads/2012/10/Eichelberger-60x60.png 60w" sizes="(max-width: 120px) 100vw, 120px" /></p>
+<p>Shannon is an American ex-pat who currently lives in Dublin with her husband and three of their four kids. She has a BA in History and English from Washington State University and an MA in Modern Irish History from Trinity College Dublin. She is currently working with Open Knowledge Foundation Ireland to make data open and available to all.</p>
+<p>In her spare time Shannon loves to read especially on historical topics and sci-fi fantasy; writing (almost) daily entries to her Today in Irish History blog; attending talks and conferences on history and open data; and learning how to program computers from her ubergeek husband. You can find her on Twitter <a href="https://www.twitter.com/irelandhistory">@irelandhistory</a> and on the web at <a href="http://www.hallamor.org/">http://www.hallamor.org/</a></p>
+<hr />
+<p>#####Thomasin Sleigh</p>
+<p><a href="/wp-content/uploads/2012/10/Thomasin.jpg"><img loading="lazy" class="alignright" src="/wp-content/uploads/2012/10/Thomasin-150x150.jpg" alt="Thomasin" width="96" height="96" /></a></p>
+<p>Thomasin is the Community Manager for <a href="http://www.digitalnz.org/">DigitalNZ</a>, a data and search service operating within the National Library of New Zealand. DigitalNZ works to make New Zealand&#8217;s digital content easy to find, share and use: Thomasin works with DigitalNZ&#8217;s various online and offline communities to encourage participation and engagement. She also coordinates the <a href="http://gifitup2015.tumblr.com/">GIF IT UP competition</a>, established to celebrate the re-use of openly licensed heritage material.</p>
+<p>Thomasin lives in Wellington, and has a background in contemporary art, having completed a Master of Arts in Art History at Victoria University and worked in contemporary art galleries prior to her role at DigitalNZ.</p>
+<hr />
+<p>#####Lieke Ploeger</p>
+<p><img loading="lazy" class="alignright  wp-image-3139" src="/wp-content/uploads/2012/10/979-150x150.jpg" alt="979" width="90" height="90" srcset="/wp-content/uploads/2012/10/979-150x150.jpg 150w, /wp-content/uploads/2012/10/979-60x60.jpg 60w, /wp-content/uploads/2012/10/979.jpg 204w" sizes="(max-width: 90px) 100vw, 90px" /><br />
+Lieke is the Community Manager of the <a href="/" target="_blank">OpenGLAM initiative</a>, promoting free and open access to digital cultural heritage data. She currently leads the work on the Open Content Exchange Platform being developed in the <a href="http://www.europeana-space.eu/" target="_blank">eSpace project</a> aimed at increasing and enhancing the creative industries’ use of online collections of digital cultural content. Before joining Open Knowledge, she worked at the National Library of the Netherlands, where she was involved in several large-scale European research projects in the areas of digitisation and digital preservation.</p>
+<div>She holds an MA in Modern Western Literature and Translation Studies and lives and works in Berlin. In 2014 she co-founded the independent project space <a href="http://spektrumberlin.de/" target="_blank">SPEKTRUM | art science community</a>, where she works as community builder.</div>
+<hr />
+<p>#####Subhashish Panigrahi <img loading="lazy" class="alignright  wp-image-2770" src="/wp-content/uploads/2012/10/Subhashish-150x150.jpg" alt="Subhashish" width="90" height="90" srcset="/wp-content/uploads/2012/10/Subhashish-150x150.jpg 150w, /wp-content/uploads/2012/10/Subhashish-300x300.jpg 300w, /wp-content/uploads/2012/10/Subhashish-60x60.jpg 60w, /wp-content/uploads/2012/10/Subhashish.jpg 681w" sizes="(max-width: 90px) 100vw, 90px" /></p>
+<p>Subhashish is an an educator and open source activist based in Bangalore, India. He is a long time Wikimedian and is involved in <a href="/2014/05/22/glam-in-india-10-tips-for-successful-glam-projects/" target="_blank">India&#8217;s first GLAM project</a>. Currently he is working at the <a href="http://cis-india.org/">Centre for Internet and Society</a>&#8216;s Access To Knowledge program.</p>
+<p>In the past, he has worked on building partnership with GLAM institutions, universities, language research organizations, government departments and individuals for bringing more scholarly and encyclopedic content on language, culture and history under free licenses. He has learning interests in building collaborative GLAM projects that operate in low cost and bring institutions, resourceful experts and scholars under one roof. He has been involved in various language related conferences and spoken in both policy and implementation discourses around open knowledge and open source.</p>
+<hr />
+<p>#####Mariana Valente<img loading="lazy" class="alignright  wp-image-2864" src="/wp-content/uploads/2012/10/mariana_valente_-150x150.jpg" alt="mariana_valente_" width="90" height="90" srcset="/wp-content/uploads/2012/10/mariana_valente_-150x150.jpg 150w, /wp-content/uploads/2012/10/mariana_valente_-60x60.jpg 60w" sizes="(max-width: 90px) 100vw, 90px" /></p>
+<div>Mariana Giorgetti Valente lives in São Paulo, Brazil. She is a researcher at the <a href="http://direitorio.fgv.br/cts/">Center for Technology and Society / FGV</a>, where she co-coordinates the Digital Collections project, that aims at conducting research and policy activities relating to cultural heritage digitization. Through FGV, she has taught Art Law and Intellectual Property Law, and is also Creative Commons Brazil Legal Lead.</div>
+<p>&nbsp;</p>
+<div>She holds a master degree in Sociology of Law from the University of São Paulo (USP), during which she developed a comparative study of the Free Software and Free Culture movements. She coordinates a copyrights working group with cultural institutions within the city of São Paulo, part of a wider working group about museum&#8217;s collections (<i>GT Arquivos de Museus e Pesquisa</i>). She also holds a specialization in Intellectual Property from the WIPO Academy (Summer School 2011), and was the legal coordinator of the Museum of Modern Art of São Paulo between 2009 and 2012.</div>
+<hr />
+<p>#####Kenny Whitebloom<a href="/wp-content/uploads/2012/10/IMG_52131.jpg"><img loading="lazy" class="alignright wp-image-3149 size-thumbnail" src="/wp-content/uploads/2012/10/IMG_52131-150x150.jpg" alt="" width="90" height="90" srcset="/wp-content/uploads/2012/10/IMG_52131-150x150.jpg 150w, /wp-content/uploads/2012/10/IMG_52131-60x60.jpg 60w" sizes="(max-width: 90px) 100vw, 90px" /></a></p>
+<div>Kenny Whitebloom ​is the Manager of Special Projects at the <a href="http://dp.la/">Digital Public Library of America (DPLA)</a>, where he works to build DPLA’s network of users and supporters through events and programs, communications, partnerships, strategic initiatives, and other projects that promote growth and innovation.</div>
+<p>&nbsp;</p>
+<div>He previously worked at the Berkman Center for Internet &amp; Society at Harvard University. Kenny holds a MLIS from Simmons School of Library and Information Science and a BA in History and Italian from Vassar College.</div>
+            
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="main-footer">
+  <div class="container">
+        <div class="columns">
+      <div class="column is-9 is-offset-3">
+        <aside class="grid-container total-cols-"><div class="widget newsletter"><h4 class="b-header widget-title">Join our community</h4><a href="https://lists.wikimedia.org/mailman/listinfo/open-glam" class="button is-rounded is-primary">Subscribe to our updates</a></div><div class="widget follow-us"><h4 class="widget-title">Follow us on:</h4><div class="widget-content"><div class="follow-icons"><a href="https://slack-signup.creativecommons.org/" class="social slack is-black"><i class="icon slack"></i></a><a href="https://www.facebook.com/openglam1" class="social facebook is-black"><i class="icon facebook"></i></a><a href="https://twitter.com/openglam" class="social twitter is-black"><i class="icon twitter"></i></a><a href="https://medium.com/open-glam" class="social medium is-black"><i class="icon medium"></i></a><a href="mailto:info@openglam.org" class="social mail is-black"><i class="icon envelope"></i></a></div></div></aside><aside class="grid-container total-cols-"><section id="custom_html-2" class="widget_text widget widget_custom_html">
+<div class="textwidget custom-html-widget">Except where otherwise noted, all content on this website is dedicated to the public domain using <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>. The OpenGLAM logo is designed to serve as a trademark for the OpenGLAM Initiative. If you want to use the logo for your own open GLAM projects, please contact Creative Commons at <a href="mailto:legal@creativecommons.org">legal@creativecommons.org</a>.</div></section></aside>      </div>
+    </div>
+        <div class="columns">
+      <div class="column is-2 is-offset-3">
+        <div class="widget support">
+          <p>Supported by</p>
+          <img src="https://ccstatic.org/openglam-landing/img/cc.logo.svg" alt="Creative Commons logo">
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type='text/javascript' src='/wp-content/themes/wp-theme-openglam-master/assets/js/script.js?ver=2020.04.1' id='vocabulary-js'></script>
+</body>
+</html>
